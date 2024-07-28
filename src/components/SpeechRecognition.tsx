@@ -21,7 +21,7 @@ const SpeechRecognition: React.FC<SpeechRecognitionProps> = ({ onTranscript }) =
   }, [isListening, startListening, stopListening])
 
   return (
-    <div className="mb-8">
+    <div className="mb-8 ">
       <button
         onClick={handleToggleListening}
         className={`px-4 py-2 rounded-full ${
